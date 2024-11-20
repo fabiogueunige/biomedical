@@ -92,20 +92,4 @@ xlabel('Time (s)');
 ylabel('Amplitude');
 legend('Accelerometer X', 'Accelerometer Y', 'Accelerometer Z', 'envelope');
 
-% Answer questions A and B based on your observations of the plots.
 
-% Question A: Why is the down-sampling performed after the envelope 
-% computation?
-
-
-% Question B: Based on the motion signal, when does the muscle activation 
-% commence in relation to the movement?
-
-% Bandpass is for removing movement signals and take only muscle ones
-% Low pass filter is for removing noise
-% The envelope must be as smooth as possible in order to recognize the
-% muscle activation. By increasing order???
-% Downsampling factor doesn't matter much as long as the signal is
-% recognizable
-% to graph movement and envelope, envelope must be normalized
-% Vr Sync for second part
